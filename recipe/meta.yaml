@@ -1,5 +1,5 @@
 {% set name = "vega-python-sdk" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/vegaprotocol/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b745eb80df083b2abf051c65534cdccfa3bb9dfda2c076992a75573556fb7de2
+  sha256: 25b9844f649c5fab054a0e458f7d7216462d6b06085ed67242e15c02a0a10875
 
 build:
   noarch: python
